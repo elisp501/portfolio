@@ -1,0 +1,153 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+    list-style: none;
+}
+
+:root{
+    --gray: rgb(242, 242, 242);
+    --dark-blue: rgb(59, 103, 210);
+    --soft-blue: rgb(120, 153, 236);
+    --darker-blue: rgb(21, 73, 175);
+}
+
+header{
+    background-image: url(./images/header-bg-lg.svg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
+body{
+    background-color: var(--gray)
+}
+
+.logo{
+    min-width: 100px;
+    width: 100px;
+    height: auto;
+}
+
+.contact-me{
+    border: 2px solid var(--dark-blue);
+    color: var(--dark-blue);
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+.contact-me:hover{
+    background-color: var(--soft-blue);
+    border-color: var(--soft-blue);
+}
+
+.header-img-cont {
+    height: 560px;
+}
+
+.header-img{
+    height: 160px;
+}
+
+.about-me-row{
+    width: 70%;
+    border-top: 1px solid var(--soft-blue);
+    border-left: 1px solid var(--soft-blue);
+    border-right: 1px solid var(--soft-blue);
+    border-radius: 20px;
+}
+
+
+.about-me-box h1{
+    font-size: 30px;
+    text-align: center;
+    color: var(--dark-blue);
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+}
+
+p{
+    color: grey;
+}
+
+.about-me-box p{
+    font-size: 15px;
+    text-align: center;
+    line-height: normal;
+    padding: 0px 20px 30px 20px;
+}
+
+.cards{
+    position:relative;
+    bottom:40px;
+    padding: 0px 20px;
+}
+
+.card-icon{
+    width: 100px;
+}
+
+.card-icon1{
+    width: 130px;
+}
+
+.Subtitle1{
+    color: var(--dark-blue);
+}
+
+ul{
+    padding:0px;
+    color: grey;
+}
+
+.title2{
+    background-color: var(--gray);
+    position:relative;
+    text-align: center;
+    bottom:70px;
+}
+
+.proyects{
+    position: relative;
+    bottom: 60px;
+}
+
+.gray-btn{
+    background-color: rgb(231, 231, 231);
+    border-radius: 15px;
+    color: rgb(46, 46, 46);
+    font-family: 'Cairo', sans-serif;
+    font-weight: 600;
+    
+}
+
+.text-proyects{
+    width: 80%;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.footer{
+    border-top: 1px solid var(--dark-blue);
+    width: 95%;
+    margin:auto;
+    padding-top: 20px;
+}
+
+.icon-footer{
+    width: 25px;
+    height: auto;
+}
+
+.footer-container{
+    display:flex;
+    flex-direction: row;
+}
+
+.icon-footer2{
+    width: 20px;
+}
+
+footer p {
+    color: var(--dark-blue);
+}
